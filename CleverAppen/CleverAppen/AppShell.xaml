@@ -5,6 +5,19 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:CleverAppen.Views;assembly=CleverAppen"
     Shell.FlyoutBehavior="Disabled">
+
+    <Shell.ToolbarItems>
+        <ToolbarItem Text="Upload document from device"
+                     Order="Secondary"
+                     Priority="1" IconImageSource="add.png"></ToolbarItem>
+        <ToolbarItem Text="Scan document with camera"
+                     Order="Secondary"
+                     Priority="2"></ToolbarItem>
+    </Shell.ToolbarItems>
+    <!--<Shell.ToolbarItems >
+        <ToolbarItem Text="+" Clicked="">
+        </ToolbarItem>
+    </Shell.ToolbarItems>-->
     <TabBar>
         <Tab Title="Invoices"
              Icon="file_invoice.png">
