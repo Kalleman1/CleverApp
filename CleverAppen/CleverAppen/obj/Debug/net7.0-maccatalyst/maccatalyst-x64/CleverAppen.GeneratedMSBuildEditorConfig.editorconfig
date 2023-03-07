@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CleverAppen
+build_property.ProjectDir = C:\Users\kaper\OneDrive\Skrivebord\CleverApp\CleverApp\CleverAppen\CleverAppen\
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/Views/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Views.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DashboardPage.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/Views/InvoicePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Views.InvoicePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InvoicePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InvoicePage.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/Views/ProductsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Views.ProductsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductsPage.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/Views/SaleItemsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Views.SaleItemsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SaleItemsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SaleItemsPage.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverApp/CleverApp/CleverAppen/CleverAppen/Views/VendorsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Views.VendorsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VendorsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VendorsPage.xaml
