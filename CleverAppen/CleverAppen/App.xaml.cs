@@ -1,4 +1,6 @@
-﻿namespace CleverAppen;
+﻿using CleverAppen.Views;
+
+namespace CleverAppen;
 
 public partial class App : Application
 {
@@ -6,6 +8,20 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+		MainPage = new NavigationPage(new LoginPage()); 
+
+		//if (IsAuthenticated())
+		//{
+		//	MainPage = new AppShell(); 
+		//}
+		//else
+		//{
+		//	MainPage = new LoginPage(); 	
+		//}
 	}
+
+	//public bool IsAuthenticated()
+	//{
+	//	return false;
+	//}
 }

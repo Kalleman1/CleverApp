@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EbvJQAnQkEOLUBfXsQPNTMZop7CHDRgOpd4I7tY+rWTj52PVIV5pQBLiqAzbHeAquCWd6QVR8QiCVCxrgGKbBQ==",
+  "dgSpecHash": "Hc17m8YOyEZ0C2B+Ez/2G0vC1oi9hmORcvWWrkdHMBhLoYKUlSELWEnJyPOemEoJ7L9O/f91E9c+YxEEiFF82A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaper\\OneDrive\\Skrivebord\\CleverApp\\CleverApp\\CleverAppen\\CleverAppen\\CleverAppen.csproj",
+  "projectFilePath": "C:\\Users\\kaper\\OneDrive\\Skrivebord\\CleverAppen\\CleverApp\\CleverAppen\\CleverAppen\\CleverAppen.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kaper\\.nuget\\packages\\communitytoolkit.maui\\5.0.0\\communitytoolkit.maui.5.0.0.nupkg.sha512",
+    "C:\\Users\\kaper\\.nuget\\packages\\communitytoolkit.maui.core\\5.0.0\\communitytoolkit.maui.core.5.0.0.nupkg.sha512",
     "C:\\Users\\kaper\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\kaper\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\kaper\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
