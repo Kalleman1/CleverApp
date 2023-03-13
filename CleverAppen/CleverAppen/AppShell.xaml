@@ -7,12 +7,11 @@
     Shell.FlyoutBehavior="Disabled">
 
     <Shell.ToolbarItems>
-        <ToolbarItem Text="Upload document from device"
-                     Order="Secondary"
-                     Priority="1" IconImageSource="add.png"></ToolbarItem>
-        <ToolbarItem Text="Scan document with camera"
-                     Order="Secondary"
-                     Priority="2"></ToolbarItem>
+        <ToolbarItem Text="Add" Clicked=""
+                     IconImageSource="add.png"></ToolbarItem>
+        <ToolbarItem Text=""/>
+        <ToolbarItem Text="Edit" Clicked=""
+                     IconImageSource="add.png"/>
     </Shell.ToolbarItems>
     <!--<Shell.ToolbarItems >
         <ToolbarItem Text="+" Clicked="">
@@ -37,7 +36,9 @@
         </Tab>
         <Tab Title="Sale Items"
              Icon="sale_items.png">
-            <ShellContent ContentTemplate="{DataTemplate views:SaleItemsPage}"/>
+            <ShellContent Title="Sale Items" ContentTemplate="{DataTemplate views:SaleItemsPage}"/>
+            <ShellContent Title="Groups"  ContentTemplate="{DataTemplate views:GroupsTab}"></ShellContent>
+            <ShellContent Title ="Custom Products" ContentTemplate="{DataTemplate views:CustomProductsTab}"></ShellContent>
         </Tab>
     </TabBar>
 </Shell>

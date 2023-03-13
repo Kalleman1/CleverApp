@@ -6,6 +6,9 @@ public partial class LoginPage : ContentPage
 	public LoginPage()
 	{
 		InitializeComponent();
+
+		NavigationPage.SetHasNavigationBar(this, false);
+		NavigationPage.SetBackButtonTitle(this, null); 
 	}
 
     private void LoginButton_Clicked(object sender, EventArgs e)

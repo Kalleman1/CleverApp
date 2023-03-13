@@ -4,6 +4,8 @@ public partial class VendorsPage : ContentPage
 {
 	public VendorsPage()
 	{
-		InitializeComponent();
-	}
+        InitializeComponent();
+        NavigationPage.SetHasNavigationBar(this, false);
+        NavigationPage.SetBackButtonTitle(this, null);
+    }
 }
