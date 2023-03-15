@@ -2985,3 +2985,5 @@ C:\Users\kaper\OneDrive\Skrivebord\CleverAppen\CleverApp\CleverAppen\CleverAppen
 C:\Users\kaper\OneDrive\Skrivebord\CleverAppen\CleverApp\CleverAppen\CleverAppen\obj\Debug\net7.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\kaper\OneDrive\Skrivebord\CleverAppen\CleverApp\CleverAppen\CleverAppen\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\kaper\OneDrive\Skrivebord\CleverAppen\CleverApp\CleverAppen\CleverAppen\obj\Debug\net7.0-android\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\kaper\OneDrive\Skrivebord\CleverAppen\CleverApp\CleverAppen\CleverAppen\obj\Debug\net7.0-android\resizetizer\r\drawable\logout.png
+C:\Users\kaper\OneDrive\Skrivebord\CleverAppen\CleverApp\CleverAppen\CleverAppen\obj\Debug\net7.0-android\resizetizer\r\drawable\settings.png

@@ -40,11 +40,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Resources.Styl
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/kaper/OneDrive/Skrivebord/CleverAppen/CleverApp/CleverAppen/CleverAppen/Views/AccountPage.xaml]
+[C:/Users/kaper/OneDrive/Skrivebord/CleverAppen/CleverApp/CleverAppen/CleverAppen/Views/AccountPopUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Views.AccountPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\AccountPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\AccountPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Views.AccountPopUp.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AccountPopUp.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AccountPopUp.xaml
+
+[C:/Users/kaper/OneDrive/Skrivebord/CleverAppen/CleverApp/CleverAppen/CleverAppen/Views/AccountSettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CleverAppen.Views.AccountSettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AccountSettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AccountSettingsPage.xaml
 
 [C:/Users/kaper/OneDrive/Skrivebord/CleverAppen/CleverApp/CleverAppen/CleverAppen/Views/CustomProductsTab.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

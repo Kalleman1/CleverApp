@@ -50,6 +50,8 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\add.png" />
+	  <None Remove="Resources\Images\logout.png" />
+	  <None Remove="Resources\Images\Settings.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -58,7 +60,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\AccountPage.xaml">
+	  <MauiXaml Update="Views\AccountPopUp.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\AccountSettingsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\CustomProductsTab.xaml">
