@@ -7,10 +7,10 @@
     Shell.FlyoutBehavior="Disabled">
 
     <Shell.ToolbarItems>
-        <ToolbarItem Text="Add" Clicked=""
+        <ToolbarItem x:Name="AddButton" Text="Add" Clicked="AddButton_Clicked"
                      IconImageSource="add.png"></ToolbarItem>
         <ToolbarItem Text=""/>
-        <ToolbarItem Text="Edit" Clicked=""
+        <ToolbarItem x:Name="AccountButton" Text="Edit" Clicked="AccountButton_Clicked"
                      IconImageSource="add.png"/>
     </Shell.ToolbarItems>
     <!--<Shell.ToolbarItems >
