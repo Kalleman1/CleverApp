@@ -1,4 +1,5 @@
 ﻿using CleverAppen.Views;
+using CommunityToolkit.Maui.Core.Platform;
 using CommunityToolkit.Maui.Views;
 
 namespace CleverAppen;
@@ -12,13 +13,13 @@ public partial class AppShell : Shell
 
     private async void AddButton_Clicked(object sender, EventArgs e)
     {
-        DisplayAccountPopUp();
+        
         
     }
 
     private void AccountButton_Clicked(object sender, EventArgs e)
     {
-
+        DisplayAccountPopUp();
     }
 
     public void DisplayAccountPopUp()

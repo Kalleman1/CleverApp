@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\account.jpg" />
 	  <None Remove="Resources\Images\add.png" />
 	  <None Remove="Resources\Images\logout.png" />
 	  <None Remove="Resources\Images\Settings.png" />

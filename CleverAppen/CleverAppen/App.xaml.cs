@@ -1,27 +1,20 @@
 ﻿using CleverAppen.Views;
+using System.Security.Cryptography.X509Certificates;
 
 namespace CleverAppen;
 
 public partial class App : Application
 {
+	public static Page RootPage { get; set; }
 	public App()
 	{
 		InitializeComponent();
 
-		MainPage = new NavigationPage(new LoginPage()); 
+        MainPage = new NavigationPage(new AppShell());
 
-		//if (IsAuthenticated())
-		//{
-		//	MainPage = new AppShell(); 
-		//}
-		//else
-		//{
-		//	MainPage = new LoginPage(); 	
-		//}
+        //MainPage = new NavigationPage(new AppShell());
+
+        App.RootPage = MainPage; 
+
 	}
-
-	//public bool IsAuthenticated()
-	//{
-	//	return false;
-	//}
 }

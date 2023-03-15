@@ -19,8 +19,10 @@ public partial class AccountPopUp : Popup
 
     }
 
-    private void AccountSettingsButton_Clicked(object sender, EventArgs e)
+    private async void AccountSettingsButton_Clicked(object sender, EventArgs e)
     {
-
+        var accountSettingsPage = new AccountSettingsPage();
+        var navigation = ((NavigationPage)App.RootPage).Navigation;
+        await navigation.PushAsync(accountSettingsPage);
     }
 }
