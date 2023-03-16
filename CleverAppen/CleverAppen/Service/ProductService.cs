@@ -17,7 +17,7 @@ namespace CleverAppen.Service
         public ProductService()
         {
 #if DEBUG
-            CustomHttpClientHandler customHttpClientHandler = new CustomHttpClientHandler();
+            CleverAppen.Platforms.Android.CustomHttpClientHandler customHttpClientHandler = new CustomHttpClientHandler();
             HttpClientHandler insecureHandler = customHttpClientHandler.GetInsecureHandler();
             httpClient = new HttpClient(insecureHandler);
 #else

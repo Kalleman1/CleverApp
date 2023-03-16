@@ -7,16 +7,27 @@
              x:DataType="viewmodel:ProductViewModel"
              Title="Products">
     <Grid>
-        <ListView ItemsSource="{Binding Products}">
+        <ListView ItemsSource="{Binding Products}" SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="model:Product">
                     <ViewCell>
-                        <StackLayout Padding="10">
-                            <Label Text="{Binding Name}" />
-                            <Label Text="{Binding Price}" />
-                            <Label Text="{Binding Description}" />
-                            <Label Text="{Binding Amount}" />
-                        </StackLayout>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="0" />
+                            <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="0" />
+                            <Label Text="{Binding Price}" Grid.Row="2" Grid.Column="0" />
+                            <Label Text="{Binding Amount}" Grid.Row="3" Grid.Column="0" />
+                            <Button Text="Edit" Grid.Row="0" Grid.Column="1" />
+                        </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
