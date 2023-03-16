@@ -3,13 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CleverAppen.Views.LoginPage"
              Title="LoginPage">
-    <Frame>
+    <Grid BackgroundColor="White">
         <VerticalStackLayout>
+            <Image Source="loginlogo.png"/>
             <Label Text="Login" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-            <Entry Placeholder="Username" HorizontalOptions="CenterAndExpand" x:Name="UsernameTextBox"></Entry>
-            <Entry Placeholder="Password" HorizontalOptions="CenterAndExpand" IsPassword="True" x:Name="PasswordTextBox"/>
-            <Button x:Name="LoginButton" Text="Login" CornerRadius="10" Clicked="LoginButton_Clicked"/>
+            <Entry Placeholder="Username" 
+                   HorizontalOptions="CenterAndExpand" 
+                   x:Name="UsernameTextBox"
+                   Margin="10"></Entry>
+            <Entry Placeholder="Password" 
+                   HorizontalOptions="CenterAndExpand" 
+                   IsPassword="True" 
+                   x:Name="PasswordTextBox"
+                   Margin="10"/>
+            <Button BackgroundColor="#2778ff" 
+                    x:Name="LoginButton" 
+                    Text="Login" 
+                    CornerRadius="10" 
+                    WidthRequest="150"
+                    Clicked="LoginButton_Clicked"
+                    Margin="10"/>
+            <Label Margin="10" 
+                   HorizontalOptions="Center" 
+                   Text="Don't have an account? Click on the link below"/>
+            <Label TextColor="Blue" 
+                   TextDecorations="Underline" 
+                   HorizontalOptions="Center" 
+                   Text="https://dashboard.clevercost.com/register">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
         </VerticalStackLayout>
-    </Frame>
-
+    </Grid>
 </ContentPage>

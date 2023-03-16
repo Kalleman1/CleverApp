@@ -22,7 +22,11 @@ public partial class AccountPopUp : Popup
     private async void AccountSettingsButton_Clicked(object sender, EventArgs e)
     {
         var accountSettingsPage = new AccountSettingsPage();
-        var navigation = ((NavigationPage)App.RootPage).Navigation;
-        await navigation.PushAsync(accountSettingsPage);
+
+        if (App.Current.MainPage is NavigationPage navigationPage)
+        {
+            await navigationPage.PushAsync(accountSettingsPage);
+            Close();
+        }
     }
 }

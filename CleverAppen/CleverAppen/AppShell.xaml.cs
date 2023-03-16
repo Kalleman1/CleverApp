@@ -9,7 +9,11 @@ public partial class AppShell : Shell
 	public AppShell()
 	{
 		InitializeComponent();
-	}
+
+        Routing.RegisterRoute(nameof(AccountSettingsPage), typeof(AccountSettingsPage));
+
+        int pageCount = Navigation.NavigationStack.Count;
+    }
 
     private async void AddButton_Clicked(object sender, EventArgs e)
     {

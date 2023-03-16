@@ -4,9 +4,6 @@
              x:Class="CleverAppen.Views.AccountSettingsPage"
              Title="AccountSettingsPage">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Button x:Name="CancelButton" Clicked="CancelButton_Clicked"></Button>
     </VerticalStackLayout>
 </ContentPage>

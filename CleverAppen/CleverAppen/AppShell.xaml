@@ -5,8 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:CleverAppen.Views;assembly=CleverAppen"
     Shell.FlyoutBehavior="Disabled"
-    BackgroundColor="#0096FF">
-
+    BackgroundColor="#2778ff">
     <Shell.ToolbarItems>
         <ToolbarItem x:Name="AddButton" 
                      Text="Add" 

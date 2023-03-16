@@ -2,7 +2,24 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CleverAppen.Views.ProductsPage"
+             xmlns:model="clr-namespace:CleverAppen.Models"
+             xmlns:viewmodel="clr-namespace:CleverAppen.ViewModels"
+             x:DataType="viewmodel:ProductViewModel"
              Title="Products">
-    <VerticalStackLayout>
-    </VerticalStackLayout>
+    <Grid>
+        <ListView ItemsSource="{Binding Products}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="model:Product">
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Price}" />
+                            <Label Text="{Binding Description}" />
+                            <Label Text="{Binding Amount}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
 </ContentPage>

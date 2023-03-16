@@ -22,4 +22,8 @@ public partial class LoginPage : ContentPage
 			DisplayAlert("There was an error logging you in.", "The password and/or username you entered was wrong.", "Ok"); 
 		}
     }
+
+    private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    {
+    }
 }
