@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hc17m8YOyEZ0C2B+Ez/2G0vC1oi9hmORcvWWrkdHMBhLoYKUlSELWEnJyPOemEoJ7L9O/f91E9c+YxEEiFF82A==",
+  "dgSpecHash": "7vgOXmMVwt2QvVHG8AKd9kgJl2/ZEONN2t63Ygeb1PyZeWuXM5SmB/epQT0wigNp656lbbBwTxX1m+Eb5Q2ZsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kaper\\OneDrive\\Skrivebord\\CleverAppen\\CleverApp\\CleverAppen\\CleverAppen\\CleverAppen.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,9 @@
     "C:\\Users\\kaper\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.59\\microsoft.maui.graphics.win2d.winui.desktop.7.0.59.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\kaper\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\kaper\\.nuget\\packages\\syncfusion.licensing\\20.4.0.54\\syncfusion.licensing.20.4.0.54.nupkg.sha512",
+    "C:\\Users\\kaper\\.nuget\\packages\\syncfusion.maui.charts\\20.4.54\\syncfusion.maui.charts.20.4.54.nupkg.sha512",
+    "C:\\Users\\kaper\\.nuget\\packages\\syncfusion.maui.core\\20.4.54\\syncfusion.maui.core.20.4.54.nupkg.sha512",
     "C:\\Users\\kaper\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\kaper\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\kaper\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

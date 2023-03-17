@@ -5,7 +5,8 @@
              xmlns:model="clr-namespace:CleverAppen.Models"
              xmlns:viewmodel="clr-namespace:CleverAppen.ViewModels"
              x:DataType="viewmodel:ProductViewModel"
-             Title="Products">
+             Title="Products"
+             xmlns:control="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts">
     <Grid>
         <ListView ItemsSource="{Binding Products}" SelectionMode="None">
             <ListView.ItemTemplate>
@@ -22,15 +23,46 @@
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="Auto" />
                             </Grid.ColumnDefinitions>
-                            <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="0" />
-                            <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="0" />
-                            <Label Text="{Binding Price}" Grid.Row="2" Grid.Column="0" />
-                            <Label Text="{Binding Amount}" Grid.Row="3" Grid.Column="0" />
-                            <Button Text="Edit" Grid.Row="0" Grid.Column="1" />
+                            <Label Text="{Binding Name}" 
+                                   Grid.Row="0" Grid.Column="0" />
+                            <Label Text="{Binding Description}" 
+                                   Grid.Row="1" Grid.Column="0" />
+                            <Label Text="{Binding Price}" 
+                                   Grid.Row="2" 
+                                   Grid.Column="0" />
+                            <Label Text="{Binding Amount}" 
+                                   Grid.Row="3" 
+                                   Grid.Column="0" />
+                            <Button Text="Edit" 
+                                    Grid.Row="0" 
+                                    Grid.Column="1" />
                         </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <control:SfCircularChart>
+            <control:SfCircularChart.Resources>
+                <DataTemplate x:Key="tooltipTemplate"
+                              x:DataType="model:Product">
+                    <HorizontalStackLayout>
+                        <Label Text="{Binding Name}"
+                               TextColor="White"
+                               FontAttributes="Bold"
+                               FontSize="12"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               />
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </control:SfCircularChart.Resources>
+            <control:DoughnutSeries ItemsSource="{Binding Products}"
+                               ShowDataLabels="True"
+                               XBindingPath="Name"
+                               YBindingPath="Amount"
+                               EnableTooltip="True"
+                               TooltipTemplate="{StaticResource tooltipTemplate}">
+            </control:DoughnutSeries>
+        </control:SfCircularChart>
     </Grid>
 </ContentPage>
