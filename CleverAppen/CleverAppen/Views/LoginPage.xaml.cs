@@ -15,7 +15,8 @@ public partial class LoginPage : ContentPage
     {
 		if (UsernameTextBox.Text == "123" && PasswordTextBox.Text == "123")
 		{
-			Navigation.PushAsync(new AppShell()); 
+			var appShell = new AppShell();
+			Application.Current.MainPage = appShell;
 		}
 		else
 		{

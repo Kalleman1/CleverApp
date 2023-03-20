@@ -4,6 +4,24 @@
         <name>CleverAppen</name>
     </assembly>
     <members>
+        <member name="F:CleverAppen.ViewModels.AccountOptionsViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:CleverAppen.ViewModels.AccountOptionsViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:CleverAppen.ViewModels.AccountOptionsViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CleverAppen.ViewModels.AccountOptionsViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="F:CleverAppen.ViewModels.AccountOptionsViewModel.goToAccountSettingsCommand">
+            <summary>The backing field for <see cref="P:CleverAppen.ViewModels.AccountOptionsViewModel.GoToAccountSettingsCommand"/>.</summary>
+        </member>
+        <member name="P:CleverAppen.ViewModels.AccountOptionsViewModel.GoToAccountSettingsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CleverAppen.ViewModels.AccountOptionsViewModel.GoToAccountSettings"/>.</summary>
+        </member>
+        <member name="F:CleverAppen.ViewModels.AccountSettingsViewModel.gobackCommand">
+            <summary>The backing field for <see cref="P:CleverAppen.ViewModels.AccountSettingsViewModel.GobackCommand"/>.</summary>
+        </member>
+        <member name="P:CleverAppen.ViewModels.AccountSettingsViewModel.GobackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CleverAppen.ViewModels.AccountSettingsViewModel.Goback"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color

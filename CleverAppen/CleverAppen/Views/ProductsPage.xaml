@@ -42,14 +42,16 @@
             </ListView.ItemTemplate>
         </ListView>
         <control:SfCircularChart>
+            <control:SfCircularChart.Legend>
+                <control:ChartLegend/>
+            </control:SfCircularChart.Legend>
             <control:SfCircularChart.TooltipBehavior>
-                <control:ChartTooltipBehavior x:DataType="model:Product"/>
+                <control:ChartTooltipBehavior/>
             </control:SfCircularChart.TooltipBehavior>
             <control:SfCircularChart.Resources>
                 <DataTemplate x:Key="tooltipTemplate"
-                              x:Name="tooltipTemplate"
                               x:DataType="model:Product">
-                    <HorizontalStackLayout >
+                    <HorizontalStackLayout>
                         <Label Text="{Binding Name}"
                                TextColor="White"
                                FontAttributes="Bold"

@@ -49,24 +49,32 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\account.jpg" />
-	  <None Remove="Resources\Images\add.png" />
+	  <None Remove="Resources\Images\account.png" />
+	  <None Remove="Resources\Images\addpicture.png" />
+	  <None Remove="Resources\Images\camera.png" />
+	  <None Remove="Resources\Images\changecompany.png" />
+	  <None Remove="Resources\Images\clevercost_login.png" />
 	  <None Remove="Resources\Images\loginlogo.png" />
 	  <None Remove="Resources\Images\logout.png" />
 	  <None Remove="Resources\Images\Settings.png" />
+	  <None Remove="Resources\Images\upload.png" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="5.0.0" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="Syncfusion.Maui.Charts" Version="20.4.54" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\AccountPopUp.xaml">
+	  <MauiXaml Update="Views\AccountOptionsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\AccountSettingsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\AddInvoicePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\CustomProductsTab.xaml">

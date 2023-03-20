@@ -5,17 +5,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:CleverAppen.Views;assembly=CleverAppen"
     Shell.FlyoutBehavior="Disabled"
-    BackgroundColor="#2778ff">
+    BackgroundColor="#C1D8FF">
     <Shell.ToolbarItems>
         <ToolbarItem x:Name="AddButton" 
                      Text="Add" 
                      Clicked="AddButton_Clicked"
-                     IconImageSource="add.png"></ToolbarItem>
-        <ToolbarItem Text=""/>
+                     IconImageSource="addpicture.png"/>
         <ToolbarItem x:Name="AccountButton" 
                      Text="Edit" 
                      Clicked="AccountButton_Clicked"
-                     IconImageSource="add.png"/>
+                     IconImageSource="account.png"/>
     </Shell.ToolbarItems>
     <TabBar>
         <Tab Title="Invoices"
@@ -36,9 +35,12 @@
         </Tab>
         <Tab Title="Sale Items"
              Icon="sale_items.png">
-            <ShellContent Title="Sale Items" ContentTemplate="{DataTemplate views:SaleItemsPage}"/>
-            <ShellContent Title="Groups"  ContentTemplate="{DataTemplate views:GroupsTab}"></ShellContent>
-            <ShellContent Title ="Custom Products" ContentTemplate="{DataTemplate views:CustomProductsTab}"></ShellContent>
+            <ShellContent Title="Sale Items" 
+                          ContentTemplate="{DataTemplate views:SaleItemsPage}"/>
+            <ShellContent Title="Groups"  
+                          ContentTemplate="{DataTemplate views:GroupsTab}"/>
+            <ShellContent Title ="Custom Products" 
+                          ContentTemplate="{DataTemplate views:CustomProductsTab}"/>
         </Tab>
     </TabBar>
 </Shell>

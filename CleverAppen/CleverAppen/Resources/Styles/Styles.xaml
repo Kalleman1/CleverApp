@@ -6,10 +6,10 @@
 
     <Style TargetType="TabBar">
         <Setter Property="Shell.TabBarBackgroundColor" 
-                Value="DodgerBlue"/>
+                Value="#C1D8FF"/>
         <Setter Property="Shell.TabBarTitleColor" 
-                Value="Black"/>
-        <Setter Property="Shell.TabBarUnselectedColor" Value="AntiqueWhite"/>
+                Value="#347DFE"/>
+        <Setter Property="Shell.TabBarUnselectedColor" Value="#43425D"/>
     </Style>
 
     <Style TargetType="ActivityIndicator">

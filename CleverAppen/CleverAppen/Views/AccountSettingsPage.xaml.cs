@@ -1,3 +1,4 @@
+using CleverAppen.ViewModels;
 using CommunityToolkit.Maui.Views;
 
 namespace CleverAppen.Views;
@@ -5,11 +6,14 @@ namespace CleverAppen.Views;
 public partial class AccountSettingsPage : ContentPage
 {
 
-	public AccountSettingsPage()
+	public AccountSettingsPage(AccountSettingsViewModel viewModel)
 	{
 		InitializeComponent();
+
+        BindingContext = viewModel;
         NavigationPage.SetHasNavigationBar(this, false);
-        int pageCount = Navigation.NavigationStack.Count;
+        Shell.SetTabBarIsVisible(this, false);
+        Shell.SetNavBarIsVisible(this, false);
     }
 
     private async void CancelButton_Clicked(object sender, EventArgs e)
